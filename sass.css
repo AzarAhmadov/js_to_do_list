@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+* body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: rgba(196, 8, 196, 0.726);
+}
+
+#wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#wrapper #todo-list {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#wrapper #todo-list form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+#wrapper #todo-list #text {
+  width: 300px;
+  height: 45px;
+  padding: 0px 15px;
+}
+
+#wrapper #todo-list #add {
+  width: 60px;
+  font-size: 19px;
+  background: greenyellow;
+  border: none;
+  border-radius: 4px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#wrapper #todo-list #clear {
+  width: 60px;
+  font-size: 19px;
+  background: red;
+  border: none;
+  border-radius: 4px;
+  height: 45px;
+  color: #fff;
+}
+
+#wrapper #input-text {
+  width: auto;
+  background: rebeccapurple;
+  padding: 0px 10px;
+}
+
+.paragraf-style {
+  font-size: 22px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+/*# sourceMappingURL=sass.css.map */
